@@ -83,3 +83,110 @@ article {
     width: 125px;
     margin-left: 16px;
 }
+
+/* Header - CSS Grid */
+header {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    align-items: center;
+    padding: 20px;
+    background-color: #e6d5f0;
+}
+
+header img {
+    width: 100px;
+}
+
+/* Navigation - CSS Flexbox */
+header nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+header nav a {
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 1px solid #333;
+}
+
+/* History Section */
+.history-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+}
+
+.history-content img {
+    max-width: 100%;
+}
+
+/* Adventures Grid - CSS Grid for 5 columns */
+.adventures-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+    margin-top: 20px;
+}
+
+figure {
+    text-align: center;
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+}
+
+figcaption {
+    padding: 10px;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #e6d5f0;
+}
+
+.socialmedia {
+    display: flex;
+    gap: 10px;
+}
+
+.socialmedia img {
+    width: 40px;
+    height: 40px;
+}
+
+/* History Section */
+.history {
+    padding: 20px;
+}
+
+.history h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.history-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.history-content p {
+    flex: 1;
+    text-align: justify;
+}
+
+.history-content img {
+    flex: 0 0 auto;
+    max-width: 200px;
+    height: auto;
+}
